@@ -1,7 +1,5 @@
 <div align = "center">
 
-## 测试
-
 # Twilight
 
 A CMS integrated static blog template built with Astro framework.
