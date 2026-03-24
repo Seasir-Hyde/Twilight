@@ -44,9 +44,6 @@ importers:
       '@fontsource-variable/jetbrains-mono':
         specifier: ^5.2.8
         version: 5.2.8
-      '@fontsource/roboto':
-        specifier: ^5.2.10
-        version: 5.2.10
       '@iconify-json/eos-icons':
         specifier: ^1.2.4
         version: 1.2.4
@@ -89,9 +86,6 @@ importers:
       astro-icon:
         specifier: ^1.1.5
         version: 1.1.5
-      bcryptjs:
-        specifier: ^3.0.3
-        version: 3.0.3
       crypto-js:
         specifier: ^4.2.0
         version: 4.2.0
@@ -113,24 +107,28 @@ importers:
       markdown-it:
         specifier: ^14.1.1
         version: 14.1.1
+<<<<<<< HEAD
       marked:
         specifier: ^17.0.3
         version: 17.0.5
+=======
+>>>>>>> bc7ba07c46e0da5bbf885e5429748a1c85ccedbe
       mdast-util-to-string:
         specifier: ^4.0.0
         version: 4.0.0
       node-html-parser:
         specifier: ^7.0.2
+<<<<<<< HEAD
         version: 7.1.0
       overlayscrollbars:
         specifier: ^2.14.0
         version: 2.14.0
+=======
+        version: 7.0.2
+>>>>>>> bc7ba07c46e0da5bbf885e5429748a1c85ccedbe
       pagefind:
         specifier: ^1.4.0
         version: 1.4.0
-      photoswipe:
-        specifier: ^5.4.4
-        version: 5.4.4
       reading-time:
         specifier: ^1.5.0
         version: 1.5.0
@@ -188,10 +186,14 @@ importers:
     devDependencies:
       '@astrojs/ts-plugin':
         specifier: ^1.10.6
+<<<<<<< HEAD
         version: 1.10.7
       '@biomejs/biome':
         specifier: 2.3.13
         version: 2.3.13
+=======
+        version: 1.10.6
+>>>>>>> bc7ba07c46e0da5bbf885e5429748a1c85ccedbe
       '@iconify-json/mdi':
         specifier: ^1.2.3
         version: 1.2.3
@@ -856,6 +858,7 @@ packages:
     resolution: {integrity: sha512-LwdZHpScM4Qz8Xw2iKSzS+cfglZzJGvofQICy7W7v4caru4EaAmyUuO6BGrbyQ2mYV11W0U8j5mBhd14dd3B0A==}
     engines: {node: '>=6.9.0'}
 
+<<<<<<< HEAD
   '@biomejs/biome@2.3.13':
     resolution: {integrity: sha512-Fw7UsV0UAtWIBIm0M7g5CRerpu1eKyKAXIazzxhbXYUyMkwNrkX/KLkGI7b+uVDQ5cLUMfOC9vR60q9IDYDstA==}
     engines: {node: '>=14.21.3'}
@@ -913,6 +916,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
+=======
+>>>>>>> bc7ba07c46e0da5bbf885e5429748a1c85ccedbe
   '@capsizecss/unpack@4.0.0':
     resolution: {integrity: sha512-VERIM64vtTP1C4mxQ5thVT9fK0apjPFobqybMtA1UdUujWka24ERHbRHFGmpbbhp73MhV+KSsHQH9C6uOTdEQA==}
     engines: {node: '>=18'}
@@ -1336,9 +1341,6 @@ packages:
 
   '@fontsource-variable/jetbrains-mono@5.2.8':
     resolution: {integrity: sha512-WBA9elru6Jdp5df2mES55wuOO0WIrn3kpXnI4+W2ek5u3ZgLS9XS4gmIlcQhiZOWEKl95meYdvK7xI+ETLCq/Q==}
-
-  '@fontsource/roboto@5.2.10':
-    resolution: {integrity: sha512-8HlA5FtSfz//oFSr2eL7GFXAiE7eIkcGOtx7tjsLKq+as702x9+GU7K95iDeWFapHC4M2hv9RrpXKRTGGBI8Zg==}
 
   '@iconify-json/eos-icons@1.2.4':
     resolution: {integrity: sha512-gp2BCSF3+aRgMqE7LRAVxT5nXJLOtfcvGnOYwJz4gc4zxcEqAaOByxFVLZej15jXPRJmUv2TSzMNrQ2gDtw4VA==}
@@ -2392,10 +2394,6 @@ packages:
 
   bcp-47-match@2.0.3:
     resolution: {integrity: sha512-JtTezzbAibu8G0R9op9zb3vcWZd9JF6M0xOYGPn0fNCd7wOpRB1mU2mH9T8gaBGbAAyIIVgB2G7xG0GP98zMAQ==}
-
-  bcryptjs@3.0.3:
-    resolution: {integrity: sha512-GlF5wPWnSa/X5LKM1o0wz0suXIINz1iHRLvTS+sLyi7XPbe5ycmYI3DlZqVGZZtDgl4DmasFg7gOB3JYbphV5g==}
-    hasBin: true
 
   bindings@1.5.0:
     resolution: {integrity: sha512-p2q/t/mhvuOj/UeLlV6566GD/guowlr0hHxClI0W9m7MWYkL1F0hLo+0Aexs9HSPCtR1SXQ0TD3MMKrXZajbiQ==}
@@ -3677,11 +3675,14 @@ packages:
   markdown-table@3.0.4:
     resolution: {integrity: sha512-wiYz4+JrLyb/DqW2hkFJxP7Vd7JuTDm77fvbM8VfEQdmSMqcImWeeRbHwZjBjIFki/VaMK2BhFi7oUUZeM5bqw==}
 
+<<<<<<< HEAD
   marked@17.0.5:
     resolution: {integrity: sha512-6hLvc0/JEbRjRgzI6wnT2P1XuM1/RrrDEX0kPt0N7jGm1133g6X7DlxFasUIx+72aKAr904GTxhSLDrd5DIlZg==}
     engines: {node: '>= 20'}
     hasBin: true
 
+=======
+>>>>>>> bc7ba07c46e0da5bbf885e5429748a1c85ccedbe
   math-intrinsics@1.1.0:
     resolution: {integrity: sha512-/IXtbwEk5HTPyEwyKX6hGkYXxM9nbj64B+ilVJnC/R6B0pH5G4V3b0pVbL7DBj4tkhBAppbQUlf6F6Xl9LHu1g==}
     engines: {node: '>= 0.4'}
@@ -3987,9 +3988,6 @@ packages:
     resolution: {integrity: sha512-8AV/sCtuzUeTo8gQK5qDZzARrulB3egtLzFgteqB2tcT4Mw7B8Kt7JcDHmltjz6FOAHsvTevk70gZEbhM4ZS9Q==}
     hasBin: true
 
-  overlayscrollbars@2.14.0:
-    resolution: {integrity: sha512-RjV0pqc79kYhQLC3vTcLRb5GLpI1n6qh0Oua3g+bGH4EgNOJHVBGP7u0zZtxoAa0dkHlAqTTSYRb9MMmxNLjig==}
-
   own-keys@1.0.1:
     resolution: {integrity: sha512-qFOyK5PjiWZd+QQIh+1jhdb9LpxTF0qs7Pm8o5QHYZ0M3vKqSqzsZaEB6oWlxZ+q2sJBMI/Ktgd2N5ZwQoRHfg==}
     engines: {node: '>= 0.4'}
@@ -4113,10 +4111,6 @@ packages:
 
   pend@1.2.0:
     resolution: {integrity: sha512-F3asv42UuXchdzt+xXqfW1OGlVBe+mxa2mqI0pg5yAHZPvFmY3Y6drSf/GQ1A86WgWEN9Kzh/WrgKa6iGcHXLg==}
-
-  photoswipe@5.4.4:
-    resolution: {integrity: sha512-WNFHoKrkZNnvFFhbHL93WDkW3ifwVOXSW3w1UuZZelSmgXpIGiZSNlZJq37rR8YejqME2rHs9EhH9ZvlvFH2NA==}
-    engines: {node: '>= 0.12.0'}
 
   piccolore@0.1.3:
     resolution: {integrity: sha512-o8bTeDWjE086iwKrROaDf31K0qC/BENdm15/uH9usSC/uZjJOKb2YGiVHfLY4GhwsERiPI1jmwI2XrA7ACOxVw==}
@@ -6447,41 +6441,6 @@ snapshots:
       '@babel/helper-string-parser': 7.27.1
       '@babel/helper-validator-identifier': 7.28.5
 
-  '@biomejs/biome@2.3.13':
-    optionalDependencies:
-      '@biomejs/cli-darwin-arm64': 2.3.13
-      '@biomejs/cli-darwin-x64': 2.3.13
-      '@biomejs/cli-linux-arm64': 2.3.13
-      '@biomejs/cli-linux-arm64-musl': 2.3.13
-      '@biomejs/cli-linux-x64': 2.3.13
-      '@biomejs/cli-linux-x64-musl': 2.3.13
-      '@biomejs/cli-win32-arm64': 2.3.13
-      '@biomejs/cli-win32-x64': 2.3.13
-
-  '@biomejs/cli-darwin-arm64@2.3.13':
-    optional: true
-
-  '@biomejs/cli-darwin-x64@2.3.13':
-    optional: true
-
-  '@biomejs/cli-linux-arm64-musl@2.3.13':
-    optional: true
-
-  '@biomejs/cli-linux-arm64@2.3.13':
-    optional: true
-
-  '@biomejs/cli-linux-x64-musl@2.3.13':
-    optional: true
-
-  '@biomejs/cli-linux-x64@2.3.13':
-    optional: true
-
-  '@biomejs/cli-win32-arm64@2.3.13':
-    optional: true
-
-  '@biomejs/cli-win32-x64@2.3.13':
-    optional: true
-
   '@capsizecss/unpack@4.0.0':
     dependencies:
       fontkitten: 1.0.3
@@ -6746,8 +6705,6 @@ snapshots:
   '@fancyapps/ui@6.1.13': {}
 
   '@fontsource-variable/jetbrains-mono@5.2.8': {}
-
-  '@fontsource/roboto@5.2.10': {}
 
   '@iconify-json/eos-icons@1.2.4':
     dependencies:
@@ -7876,8 +7833,6 @@ snapshots:
   baseline-browser-mapping@2.10.9: {}
 
   bcp-47-match@2.0.3: {}
-
-  bcryptjs@3.0.3: {}
 
   bindings@1.5.0:
     dependencies:
@@ -9337,8 +9292,11 @@ snapshots:
 
   markdown-table@3.0.4: {}
 
+<<<<<<< HEAD
   marked@17.0.5: {}
 
+=======
+>>>>>>> bc7ba07c46e0da5bbf885e5429748a1c85ccedbe
   math-intrinsics@1.1.0: {}
 
   maxmin@2.1.0:
@@ -9897,8 +9855,6 @@ snapshots:
 
   opencollective-postinstall@2.0.3: {}
 
-  overlayscrollbars@2.14.0: {}
-
   own-keys@1.0.1:
     dependencies:
       get-intrinsic: 1.3.0
@@ -10028,8 +9984,6 @@ snapshots:
   pathe@2.0.3: {}
 
   pend@1.2.0: {}
-
-  photoswipe@5.4.4: {}
 
   piccolore@0.1.3: {}
 
