@@ -1,11 +1,11 @@
 # 站点配置
 site:
     # 站点 URL（以斜杠结尾）
-    siteURL: "https://twilight.spr-aachen.com/"
+    siteURL: "https://twilight.seasir.top/"
     # 站点标题
-    title: "Twilight"
+    title: "Hyde Blog"
     # 站点副标题
-    subtitle: "Blog Template"
+    subtitle: "人心中的成见是一座大山"
     # 语言配置
     lang: "en"
     # 翻译配置
@@ -44,7 +44,7 @@ site:
         # 主题色的默认色相 (范围从 0 到 360。例如：红色：0，青色：200，蓝绿色：250，粉色：345)
         hue: 255
     # 默认主题 ("system" 跟随系统 | "light" 浅色 | "dark" 深色)
-    defaultTheme: "dark"
+    defaultTheme: "light"
     # 壁纸配置
     wallpaper:
         # 模式 ("banner" 横幅 | "fullscreen" 全屏 | "none" 纯色)
@@ -77,10 +77,23 @@ site:
                 # 在主页显示文本
                 enable: true
                 # 主标题
-                title: "Twilight"
+                title: "Hyde Blog"
                 # 副标题，支持单个字符串或字符串数组
                 subtitle:
-                    - "Illuminate Our Paths"
+                    - "欲买桂花同载酒，终不似，少年游"
+                    - "好遗憾，我们之间连挽留的资格都没有"
+                    - "时间从来不语，却回答了所有问题"
+                    - "太过热情，终究被辜负"
+                    - "富士山没留住欲落的樱花，白山茶终没抵过红玫瑰"
+                    - "原来时间不是解药，释怀才是"
+                    - "从未拥有你，却一直害怕失去你"
+                    - "遗憾吗？连张合照都没有"
+                    - "万幸得以相识，遗憾止于相识"
+                    - "最痛苦的不是失去那一刻，而是之后想起她的每一刻"
+                    - "比起失去，更害怕别人拥有你"
+                    - "好安静，以为我们还有很多话要说"
+                    - "闭着眼睛看不见自己，却能看见你"
+                    - "你已偏航，已重新为你规划路线"
                 # 副标题打字机效果
                 typewriter:
                     # 启用副标题打字机效果
@@ -256,7 +269,8 @@ sidebar:
 # 资料配置
 profile:
     # 头像配置 (相对于 /public 目录)
-    avatar: "/assets/images/avatar.jpg"
+    # avatar: "/assets/images/avatar.jpg"
+    avatar: "https://teek.seasir.top/avatar/avatar.webp"
     # 信息配置
     name: "Twilight"
     # 简介配置
@@ -269,16 +283,16 @@ profile:
             # 图标
             icon: "fa6-brands:github"
             # 链接
-            url: "https://github.com/Spr-Aachen/Twilight"
+            url: "https://gitee.com/SeasirHyde/teek-hyde"
 
 # 公告配置
 announcement:
     # 公告标题
     title: "Announcement"
     # 公告内容
-    content: "Welcome to my blog!"
+    content: "📢 欢迎来访者"
     # 允许用户关闭公告
-    closable: true
+    closable: false
     # 链接配置
     link:
         # 启用链接
@@ -370,7 +384,7 @@ musicPlayer:
     # 启用音乐播放器功能
     enable: true
     # 默认模式 ("meting" API | "local" 本地)
-    mode: "meting"
+    mode: "local"
     # meting 模式专属配置
     meting:
         # Meting API 地址
@@ -380,7 +394,7 @@ musicPlayer:
         # 类型 ("playlist" 歌单 | "song" 单曲)
         type: "playlist"
         # 资源 ID
-        id: "2161912966"
+        id: "14273792576"
     # local 模式专属配置
     local:
         # 播放列表
@@ -389,13 +403,13 @@ musicPlayer:
                 # 序号
                 id: 1
                 # 标题
-                title: "深海之息"
+                title: "还是会想你"
                 # 作者
-                artist: "Youzee Music"
+                artist: "DJ阿智"
                 # 封面
-                cover: "https://p1.music.126.net/PhKOqFtljgHDDpKYM2ADUA==/109951169858309716.jpg"
+                cover: "http://p2.music.126.net/TUvepwNDA8YVNo-V_ro8Zw==/109951167732163761.jpg?param=140y140"
                 # 音乐路径
-                url: "assets/music/深海之息.m4a"
+                url: "assets/music/DJ阿智 - 还是会想你.mp3"
                 # 歌词路径
                 lrc: "assets/music/深海之息.lrc"
                 # 时长
@@ -406,7 +420,7 @@ musicPlayer:
 # 看板娘配置
 pio:
     # 启用看板娘
-    enable: false
+    enable: true
     # 模型文件路径
     models:
         - "/pio/models/pio/model.json"
